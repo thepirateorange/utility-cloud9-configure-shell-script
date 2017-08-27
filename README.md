@@ -5,7 +5,7 @@ A simple script I created to automatically install dependencies for a cloud 9 co
 ## What does it do?
 * Adds repository "ppa:ondrej/php"
 * Updates apt
-* Installs "livapache2-mod-php7.0"
+* Installs "libapache2-mod-php7.0"
 * Disables PHP5, Enables PHP7.0
 * Restarts Apache
 * Installs the following PHP7.0 Packages: DOM, ZIP, MBSTRING, MCRYPT, MYSQL, SQLITE, GD
