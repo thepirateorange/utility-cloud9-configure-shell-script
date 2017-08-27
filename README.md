@@ -1,7 +1,6 @@
 # [UTILITY] Cloud9 Configure Bash Script
 
 A simple script I created to automatically install dependencies for a cloud 9 container that's going to be used to run a Laravel application.
-Make sure to delete this after use to avoid security issues.
 
 ## What does it do?
 * Adds repository "ppa:ondrej/php"
