@@ -10,3 +10,7 @@ A simple script I created to automatically install dependencies for a cloud 9 co
 * Restarts Apache
 * Installs the following PHP7.0 Packages: DOM, ZIP, MBSTRING, MCRYPT, MYSQL, SQLITE, GD
 * Runs cloud9 phpmyadmin and mysql installation scripts.
+
+## Versions
+
+PHP 7.1 version available in php-7.1 branch.

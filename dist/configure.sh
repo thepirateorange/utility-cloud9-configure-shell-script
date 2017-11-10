@@ -35,15 +35,15 @@ sudo apt-get update -y
 clear
 
 # Install PHP 7
-echo "[NOTICE] Installing PHP 7"
-sudo apt-get install libapache2-mod-php7.0 -y
+echo "[NOTICE] Installing PHP 7.1"
+sudo apt-get install libapache2-mod-php7.1 -y
 
 # Clear
 clear
 
 # Disable PHP 5 and enable PHP 7
 echo "[NOTICE] Disabling PHP 5 and Enabling PHP 7"
-sudo a2dismod php5 && sudo a2enmod php7.0
+sudo a2dismod php5 && sudo a2enmod php7.1
 
 # Clear
 clear
@@ -57,7 +57,7 @@ clear
 
 # Install PHP 7 Packages
 echo "[NOTICE] Installing PHP 7 Packages"
-sudo apt-get install php7.0-dom php7.0-zip php7.0-mbstring php7.0-mcrypt php7.0-mysql php7.0-sqlite php7.0-gd -y
+sudo apt-get install php7.1-dom php7.1-zip php7.1-mbstring php7.1-mcrypt php7.1-mysql php7.1-sqlite php7.1-gd -y
 
 # Clear
 clear
@@ -87,3 +87,9 @@ clear
 
 # End Script
 echo "End of script."
+
+# Sleep, Let the user read the message.
+sleep 5
+
+# Clear
+clear
